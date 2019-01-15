@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>bee47dc5-1cca-4040-850a-a6d6024aa972</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>read_pickle.py</StartupFile>
+    <StartupFile>sorting.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
     </Compile>
     <Compile Include="pythonFirst.py" />
     <Compile Include="read_pickle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sorting.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
